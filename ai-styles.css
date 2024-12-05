@@ -1,0 +1,139 @@
+.ai-theme {
+    --primary-color: #6e45e2;    /* Royal Purple */
+    --secondary-color: #9d71ea;  /* Light Purple */
+    --text-color: #14110F;       /* Dark Charcoal */
+    --background-color: #F5E6D3;  /* Papyrus */
+    --accent-color: #4a2b9e;     /* Deep Purple */
+    --hieroglyph-color: #2a1b4a; /* Dark Purple */
+}
+
+.ai-theme .feature-card i {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.ai-theme .particles {
+    background: linear-gradient(45deg, 
+        rgba(110, 69, 226, 0.05), 
+        rgba(157, 113, 234, 0.05)
+    );
+}
+
+/* Social Media Section Styles */
+.social-section {
+    padding: 80px 0;
+    background: linear-gradient(rgba(245, 230, 211, 0.97), rgba(245, 230, 211, 0.97)),
+                url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 25L60 40H40L50 25zM25 50H10L25 60L10 70H25L20 85L35 70H50L45 85L55 70H70L65 85L80 70H90L75 60L90 50H75L80 35L65 50H50L55 35L45 50H25L30 35L20 50H10L25 60L10 70z' fill='%232a1b4a' fill-opacity='0.1'/%3E%3C/svg%3E");
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+    align-items: start;
+}
+
+.portal-title {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.portal-title::before,
+.portal-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(to right, transparent, var(--hieroglyph-color), transparent);
+}
+
+.portal-title::before {
+    left: 20%;
+}
+
+.portal-title::after {
+    right: 20%;
+}
+
+.portal-frame {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    padding: 12px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.portal-frame::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    z-index: -1;
+    border-radius: 12px;
+    opacity: 0.3;
+}
+
+.hieroglyph-border {
+    background: var(--background-color);
+    padding: 20px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hieroglyph-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        linear-gradient(45deg, transparent 45%, var(--hieroglyph-color) 45%, var(--hieroglyph-color) 55%, transparent 55%),
+        linear-gradient(-45deg, transparent 45%, var(--hieroglyph-color) 45%, var(--hieroglyph-color) 55%, transparent 55%);
+    background-size: 30px 30px;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+/* Instagram & Twitter Iframe Styles */
+.instagram-portal iframe,
+.crypto-news iframe {
+    border-radius: 4px;
+    background: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .social-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .portal-title::before,
+    .portal-title::after {
+        width: 40px;
+    }
+    
+    .portal-title::before {
+        left: 10%;
+    }
+    
+    .portal-title::after {
+        right: 10%;
+    }
+}

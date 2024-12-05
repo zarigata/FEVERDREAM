@@ -1,0 +1,22 @@
+.cloud-theme {
+    --primary-color: #2C5B84;    /* Egyptian Blue */
+    --secondary-color: #4B9FE1;  /* Sky Blue */
+    --text-color: #14110F;       /* Dark Charcoal */
+    --background-color: #F5E6D3;  /* Papyrus */
+    --accent-color: #1B3F5E;     /* Deep Blue */
+    --hieroglyph-color: #0A1F2E; /* Dark Blue */
+}
+
+.cloud-theme .feature-card i {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.cloud-theme .particles {
+    background: linear-gradient(45deg, 
+        rgba(44, 91, 132, 0.05), 
+        rgba(75, 159, 225, 0.05)
+    );
+}

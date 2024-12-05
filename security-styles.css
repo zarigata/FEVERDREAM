@@ -1,0 +1,22 @@
+.security-theme {
+    --primary-color: #E67E22;    /* Egyptian Orange */
+    --secondary-color: #F39C12;  /* Golden Orange */
+    --text-color: #14110F;       /* Dark Charcoal */
+    --background-color: #F5E6D3;  /* Papyrus */
+    --accent-color: #D35400;     /* Deep Orange */
+    --hieroglyph-color: #873600; /* Dark Orange */
+}
+
+.security-theme .feature-card i {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.security-theme .particles {
+    background: linear-gradient(45deg, 
+        rgba(230, 126, 34, 0.05), 
+        rgba(243, 156, 18, 0.05)
+    );
+}

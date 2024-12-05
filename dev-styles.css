@@ -1,0 +1,22 @@
+.dev-theme {
+    --primary-color: #A51D1D;    /* Egyptian Red */
+    --secondary-color: #E63946;  /* Bright Red */
+    --text-color: #14110F;       /* Dark Charcoal */
+    --background-color: #F5E6D3;  /* Papyrus */
+    --accent-color: #7A1515;     /* Deep Red */
+    --hieroglyph-color: #4A0D0D; /* Dark Red */
+}
+
+.dev-theme .feature-card i {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.dev-theme .particles {
+    background: linear-gradient(45deg, 
+        rgba(165, 29, 29, 0.05), 
+        rgba(230, 57, 70, 0.05)
+    );
+}
