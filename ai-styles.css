@@ -24,8 +24,34 @@
 /* Social Media Section Styles */
 .social-section {
     padding: 80px 0;
-    background: linear-gradient(rgba(245, 230, 211, 0.97), rgba(245, 230, 211, 0.97)),
-                url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 25L60 40H40L50 25zM25 50H10L25 60L10 70H25L20 85L35 70H50L45 85L55 70H70L65 85L80 70H90L75 60L90 50H75L80 35L65 50H50L55 35L45 50H25L30 35L20 50H10L25 60L10 70z' fill='%232a1b4a' fill-opacity='0.1'/%3E%3C/svg%3E");
+    background: linear-gradient(rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.97)),
+                url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5L35 15H25L30 5zM15 25H5L15 30L5 35H15L10 45L20 35H30L25 45L35 35H45L40 45L50 35H55L45 30L55 25H45L50 15L40 25H30L35 15L25 25H15L20 15L10 25H5L15 30L5 35z' fill='%236e45e2' fill-opacity='0.15'/%3E%3C/svg%3E");
+    position: relative;
+    overflow: hidden;
+}
+
+.social-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M35 10L40 20H30L35 10zM20 30H10L20 35L10 40H20L15 50L25 40H35L30 50L40 40H50L45 50L55 40H60L50 35L60 30H50L55 20L45 30H35L40 20L30 30H20L25 20L15 30H10L20 35L10 40z' fill='%236e45e2' fill-opacity='0.1'/%3E%3C/svg%3E");
+    animation: hieroglyphFloat 30s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes hieroglyphFloat {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(180deg);
+    }
+    100% {
+        transform: translateY(0) rotate(360deg);
+    }
 }
 
 .container {
@@ -47,6 +73,8 @@
     font-size: 2rem;
     margin-bottom: 30px;
     position: relative;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(110, 69, 226, 0.5);
 }
 
 .portal-title::before,
@@ -68,7 +96,8 @@
 }
 
 .portal-frame {
-    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    background: rgba(110, 69, 226, 0.2);
+    backdrop-filter: blur(5px);
     padding: 12px;
     border-radius: 8px;
     position: relative;
@@ -89,11 +118,12 @@
 }
 
 .hieroglyph-border {
-    background: var(--background-color);
+    background: rgba(0, 0, 0, 0.8);
     padding: 20px;
     border-radius: 4px;
     position: relative;
     overflow: hidden;
+    color: #fff;
 }
 
 .hieroglyph-border::before {
