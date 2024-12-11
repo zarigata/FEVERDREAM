@@ -268,7 +268,7 @@ function initHieroglyphicText() {
         if (index >= originalText.length) return;
 
         let iterations = 0;
-        const maxIterations = 8;
+        const maxIterations = 32;
         const interval = setInterval(() => {
             text.textContent = text.textContent.split('').map((letter, i) => {
                 if (i < index) return originalText[i];
@@ -297,6 +297,41 @@ document.addEventListener('DOMContentLoaded', () => {
     initParticles();
     new HieroglyphBackground();
     initHieroglyphicText();
+
+    // Ankh light effect
+    const missionSymbol = document.querySelector('.mission-symbol');
+    
+    if (missionSymbol) {
+        missionSymbol.addEventListener('mousemove', (e) => {
+            const rect = missionSymbol.getBoundingClientRect();
+            const x = ((e.clientX - rect.left) / rect.width) * 100;
+            const y = ((e.clientY - rect.top) / rect.height) * 100;
+            
+            missionSymbol.style.setProperty('--mouse-x', `${x}%`);
+            missionSymbol.style.setProperty('--mouse-y', `${y}%`);
+        });
+
+        // Add subtle animation when not hovering
+        let angle = 0;
+        const radius = 20;
+        const centerX = 50;
+        const centerY = 50;
+
+        function animateLight() {
+            if (!missionSymbol.matches(':hover')) {
+                const x = centerX + radius * Math.cos(angle);
+                const y = centerY + radius * Math.sin(angle);
+                
+                missionSymbol.style.setProperty('--mouse-x', `${x}%`);
+                missionSymbol.style.setProperty('--mouse-y', `${y}%`);
+                
+                angle += 0.02;
+            }
+            requestAnimationFrame(animateLight);
+        }
+
+        animateLight();
+    }
 });
 
 // Smooth scroll for navigation
