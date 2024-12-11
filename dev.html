@@ -6,6 +6,7 @@
     <title>FeverDream - Development Solutions</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="dev-styles.css">
+    <link rel="stylesheet" href="dev-services.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -33,7 +34,7 @@
             <h1>Development <span class="gradient-text">Solutions</span></h1>
             <p class="tagline">Craft Digital Monuments</p>
             <div class="cta-buttons">
-                <a href="#solutions" class="cta-button primary">Explore Dev Tools</a>
+                <a href="#" class="cta-button primary explore-dev-services">Explore Dev Tools</a>
                 <a href="#contact" class="cta-button secondary">Start Building</a>
             </div>
         </section>
@@ -56,11 +57,43 @@
             </div>
         </section>
 
+        <!-- Dev Services Modal -->
+        <div class="dev-services-modal">
+            <div class="dev-modal-content">
+                <button class="close-modal"><i class="fas fa-times"></i></button>
+                <h2>Development Services</h2>
+                <div class="dev-services-grid">
+                    <div class="dev-service-card">
+                        <div class="dev-service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="dev-service-title">AI Development</h3>
+                        <p class="dev-service-description">Custom AI solutions and machine learning models. From computer vision to natural language processing, we build intelligent systems that drive innovation.</p>
+                    </div>
+                    <div class="dev-service-card">
+                        <div class="dev-service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3 class="dev-service-title">LLM Development</h3>
+                        <p class="dev-service-description">Specialized in Large Language Models implementation and fine-tuning. Create powerful AI assistants and natural language processing solutions.</p>
+                    </div>
+                    <div class="dev-service-card">
+                        <div class="dev-service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="dev-service-title">Backend Systems</h3>
+                        <p class="dev-service-description">Robust backend infrastructure, APIs, and database solutions. Scalable and secure server-side development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <section class="animated-background">
             <div class="particles"></div>
         </section>
     </main>
 
     <script src="script.js"></script>
+    <script src="dev-services.js"></script>
 </body>
 </html>
