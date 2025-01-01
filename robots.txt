@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://feverdream.dev/sitemap.xml
+
+# F3V3R DR34M SEO OPTIMIZATION
+# KEEP IT 1337! B34T THE SEARCH ENGINES!
