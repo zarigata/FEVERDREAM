@@ -1,52 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- F3V3R DR34M SITEMAP - H4CK THE PL4N3T! -->
-    <url>
-        <loc>https://feverdream.dev/</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://feverdream.dev/about.html</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://feverdream.dev/ai.html</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://feverdream.dev/cloud.html</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://feverdream.dev/security.html</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://feverdream.dev/dev.html</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://feverdream.dev/projects.html</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://feverdream.dev/contact.html</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url><loc>https://feverdream.dev/en/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/"/></url>
+<url><loc>https://feverdream.dev/en/ai/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/ai/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/ai/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/ai/"/></url>
+<url><loc>https://feverdream.dev/en/dev/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/dev/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/dev/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/dev/"/></url>
+<url><loc>https://feverdream.dev/en/cloud/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/cloud/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/cloud/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/cloud/"/></url>
+<url><loc>https://feverdream.dev/en/security/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/security/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/security/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/security/"/></url>
+<url><loc>https://feverdream.dev/en/projects/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/projects/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/projects/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/projects/"/></url>
+<url><loc>https://feverdream.dev/en/projects/ezpenguin/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/projects/ezpenguin/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/projects/ezpenguin/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/projects/ezpenguin/"/></url>
+<url><loc>https://feverdream.dev/en/projects/double-agent/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/projects/double-agent/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/projects/double-agent/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/projects/double-agent/"/></url>
+<url><loc>https://feverdream.dev/en/opensource/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/opensource/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/opensource/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/opensource/"/></url>
+<url><loc>https://feverdream.dev/en/about/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/about/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/about/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/about/"/></url>
+<url><loc>https://feverdream.dev/en/contact/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/contact/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/contact/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/contact/"/></url>
+<url><loc>https://feverdream.dev/pt/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/"/></url>
+<url><loc>https://feverdream.dev/pt/ai/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/ai/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/ai/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/ai/"/></url>
+<url><loc>https://feverdream.dev/pt/dev/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/dev/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/dev/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/dev/"/></url>
+<url><loc>https://feverdream.dev/pt/cloud/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/cloud/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/cloud/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/cloud/"/></url>
+<url><loc>https://feverdream.dev/pt/security/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/security/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/security/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/security/"/></url>
+<url><loc>https://feverdream.dev/pt/projects/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/projects/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/projects/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/projects/"/></url>
+<url><loc>https://feverdream.dev/pt/projects/ezpenguin/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/projects/ezpenguin/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/projects/ezpenguin/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/projects/ezpenguin/"/></url>
+<url><loc>https://feverdream.dev/pt/projects/double-agent/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/projects/double-agent/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/projects/double-agent/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/projects/double-agent/"/></url>
+<url><loc>https://feverdream.dev/pt/opensource/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/opensource/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/opensource/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/opensource/"/></url>
+<url><loc>https://feverdream.dev/pt/about/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/about/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/about/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/about/"/></url>
+<url><loc>https://feverdream.dev/pt/contact/</loc><xhtml:link rel="alternate" hreflang="en" href="https://feverdream.dev/en/contact/"/><xhtml:link rel="alternate" hreflang="pt-BR" href="https://feverdream.dev/pt/contact/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://feverdream.dev/en/contact/"/></url>
 </urlset>
