@@ -1,0 +1,20 @@
+# Static site for Apache / Hostinger. Keep the existing domain and HTTPS configuration.
+Options -MultiViews
+DirectoryIndex index.html
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# Consolidate legacy entry points onto bilingual, directory-based URLs.
+RewriteRule ^$ /en/ [R=301,L]
+RewriteRule ^index(?:\.html)?/?$ /en/ [R=301,L]
+RewriteRule ^(ai|cloud|dev|security|projects|opensource|about|contact)(?:\.html)?/?$ /en/$1/ [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+(en|pt)/index(?:\.html)?[\s?] [NC]
+RewriteRule ^(en|pt)/index(?:\.html)?/?$ /$1/ [R=301,L]
+RewriteRule ^(en|pt)/(ai|cloud|dev|security|projects|opensource|about|contact)\.html$ /$1/$2/ [R=301,L]
+</IfModule>
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/png "access plus 7 days"
+ExpiresByType image/webp "access plus 7 days"
+ExpiresByType text/css "access plus 1 day"
+ExpiresByType application/javascript "access plus 1 day"
+</IfModule>
